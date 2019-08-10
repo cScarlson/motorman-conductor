@@ -1,0 +1,33 @@
+{
+  "name": "motorman-conductor",
+  "version": "0.0.1",
+  "description": "A MochaJS-Wrapper for running Node tests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "globby": "^10.0.1",
+    "mocha": "^6.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cScarlson/motorman-conductor.git"
+  },
+  "keywords": [
+    "motorman\u001b[1;5D\u001b[C\u001b[C\u001b[D",
+    "conductor",
+    "express",
+    "node",
+    "mocha",
+    "test",
+    "runner"
+  ],
+  "author": "Cody S. Carlson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cScarlson/motorman-conductor/issues"
+  },
+  "homepage": "https://github.com/cScarlson/motorman-conductor#readme"
+}
