@@ -1,4 +1,4 @@
 
-var Conductor = require('./onductor');
+var Conductor = require('./conductor');
 
 module.exports = { Conductor };

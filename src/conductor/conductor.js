@@ -40,6 +40,7 @@ var DEFAULT_CONFIG = {
     ui: 'tdd',
     reporter: 'list',
     delay: 500,
+    timeout: (1000 * 10),
 };
 var events = Runner.constants;  // https://mochajs.org/api/runner
 

@@ -1,15 +1,17 @@
 {
-  "name": "motorman-conductor",
+  "name": "@motorman/conductor",
   "version": "0.0.1",
   "description": "A MochaJS-Wrapper for running Node tests.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "chai": "^4.2.0",
+  "dependencies": {
     "globby": "^10.0.1",
     "mocha": "^6.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0"
   },
   "repository": {
     "type": "git",
