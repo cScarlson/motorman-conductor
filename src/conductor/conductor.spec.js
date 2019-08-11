@@ -62,6 +62,7 @@ describe("Conductor", () => {
             });
             
             it("should fail when no files are present", () => {
+                // await assert.rejects( () => conductor.drive() );
                 conductor.drive().catch( error => expect(error).to.be.ok );
                 // expect( () => conductor.drive() ).to.throw();
                 // try { conductor.drive() } catch (error) {
