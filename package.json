@@ -1,10 +1,10 @@
 {
   "name": "@motorman/conductor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A MochaJS-Wrapper for running Node tests.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "dependencies": {
     "globby": "^10.0.1",
@@ -18,7 +18,7 @@
     "url": "git+https://github.com/cScarlson/motorman-conductor.git"
   },
   "keywords": [
-    "motorman\u001b[1;5D\u001b[C\u001b[C\u001b[D",
+    "motorman",
     "conductor",
     "express",
     "node",
