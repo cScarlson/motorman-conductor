@@ -90,7 +90,10 @@ class Conductor extends Mocha {  // rename Conductor to Block (Engine BLock)?
     }
     
     handleExecution(failures) {
-        process.exitCode = { 'true': 1, 'false': 0 }[ !failures ];
+        var code = { 'true': 1, 'false': 0 }[ !failures ];
+        var details = { code, failures };
+        console.log(' @Conductor: finished execution with', details);
+        process.exitCode = code;
     }
     
 }

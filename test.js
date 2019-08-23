@@ -1,5 +1,5 @@
 
-var { Conductor } = require('./');
+var { Conductor } = require('@motorman/conductor');
 
 var config = {
     root: './src',
