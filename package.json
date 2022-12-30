@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "globby": "^10.0.1",
-    "mocha": "^6.2.0"
+    "mocha": "^10.2.0"
   },
   "devDependencies": {
     "chai": "^4.2.0"
